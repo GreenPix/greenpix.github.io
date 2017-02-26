@@ -68,9 +68,44 @@
 
                 <div id="content" class="content">
                     <a class="header" href="#contribuer-à-dilia" name="contribuer-à-dilia"><h1>Contribuer à Dilia</h1></a>
-<blockquote>
-<p>TODO</p>
-</blockquote>
+<p>Afin de contribuer à Dilia, il vous faudra apprendre <a href="http://typescriptlang.org">TypeScript</a>.
+<strong>TypeScript</strong> est un super set de <strong>JavaScript</strong>. Savoir ce dernier vous aidera également.
+Enfin, notre plateforme est le web: donc savoir ce qu'est le CSS et HTML vous sera aussi utile.</p>
+<p>Pfou! Ca fait beaucoup!</p>
+<p>Et c'est pas terminé...</p>
+<p>Dilia utilise aussi les technologies suivantes qui vous serons utiles de connaître
+un minimum:</p>
+<ul>
+<li>Webpack</li>
+<li>Angular</li>
+<li>Node.js</li>
+<li>Express.js</li>
+</ul>
+<a class="header" href="#un-client-et-un-serveur" name="un-client-et-un-serveur"><h2>Un client et un serveur</h2></a>
+<p>Dans le dossier <code>dilia</code> que vous venez de cloner, vous trouverez
+l'arborescense de dossier suivante:</p>
+<pre><code class="language-bash">dilia
+├── package.json            &lt;-- Contient la liste des dépendances du projet
+├── editor
+│   ├── components
+│   ├── modules
+│   │   ├── map             &lt;-- Code lié au cartes
+│   │   ├── runner          &lt;-- Le client Sarosa TypeScript
+│   │   ...
+│   └── ...
+│
+├── server                  &lt;-- Le serveur web, interface de Dilia
+│   ├── apis                &lt;-- Liste des APIS exposé par le serveur
+│   └── dbs/schemas         &lt;-- Gestion de la base de données
+│   └── ...
+└── ...
+</code></pre>
+<p>Le contenu qui est servi à un browser est entièrement contenu dans le
+dossier <code>editor</code>. Si vous souhaitez apporter une contribution visuelle,
+ou ajouter une fonctionalité dans l'interface c'est très certainement là
+qu'il faudra regarder en premier.</p>
+<p>Tout ce qui est du type &quot;sauvegarde de map&quot;, &quot;synchronisation des modifications&quot;
+va vivre côté serveur et donc dans le dossier <code>server</code>.</p>
 
                 </div>
 

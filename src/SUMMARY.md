@@ -1,3 +1,5 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+[Bienvenue!](./welcome.md)
+
+- [Installer Git](./git.md)
